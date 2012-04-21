@@ -1,0 +1,97 @@
+b/
+#       log/
+#       public/
+#       script/
+#       test/
+#       vendor/
+nothing added to commit but untracked files present (use "git add" to track)
+user@rails:~/FakeFacebook$ git add *
+The following paths are ignored by one of your .gitignore files:
+tmp
+Use -f if you really want to add them.
+fatal: no files added
+user@rails:~/FakeFacebook$ git add -f *
+user@rails:~/FakeFacebook$ git commit
+[master aeaf38c] el primer commit
+ 36 files changed, 1203 insertions(+), 0 deletions(-)
+ create mode 100644 Gemfile
+ create mode 100644 Gemfile.lock
+ create mode 100644 README.rdoc
+ create mode 100644 Rakefile
+ create mode 100644 app/assets/images/rails.png
+ create mode 100644 app/assets/javascripts/application.js
+ create mode 100644 app/assets/stylesheets/application.css
+ create mode 100644 app/controllers/application_controller.rb
+ create mode 100644 app/helpers/application_helper.rb
+ create mode 100644 app/mailers/.gitkeep
+ create mode 100644 app/models/.gitkeep
+ create mode 100644 app/views/layouts/application.html.erb
+ create mode 100644 config.ru
+ create mode 100644 config/application.rb
+ create mode 100644 config/boot.rb
+ create mode 100644 config/database.yml
+ create mode 100644 config/environment.rb
+ create mode 100644 config/environments/development.rb
+ create mode 100644 config/environments/production.rb
+ create mode 100644 config/environments/test.rb
+ create mode 100644 config/initializers/backtrace_silencers.rb
+ create mode 100644 config/initializers/inflections.rb
+ create mode 100644 config/initializers/mime_types.rb
+ create mode 100644 config/initializers/secret_token.rb
+ create mode 100644 config/initializers/session_store.rb
+ create mode 100644 config/initializers/wrap_parameters.rb
+ create mode 100644 config/locales/en.yml
+ create mode 100644 config/routes.rb
+ create mode 100644 db/seeds.rb
+ create mode 100644 doc/README_FOR_APP
+ create mode 100644 lib/assets/.gitkeep
+ create mode 100644 lib/tasks/.gitkeep
+ create mode 100644 log/.gitkeep
+ create mode 100644 public/404.html
+ create mode 100644 public/422.html
+ create mode 100644 public/500.html
+ create mode 100644 public/favicon.ico
+ create mode 100644 public/index.html
+ create mode 100644 public/robots.txt
+ create mode 100755 script/rails
+ create mode 100644 test/fixtures/.gitkeep
+ create mode 100644 test/functional/.gitkeep
+ create mode 100644 test/integration/.gitkeep
+ create mode 100644 test/performance/browsing_test.rb
+ create mode 100644 test/test_helper.rb
+ create mode 100644 test/unit/.gitkeep
+ create mode 100644 vendor/assets/javascripts/.gitkeep
+ create mode 100644 vendor/assets/stylesheets/.gitkeep
+ create mode 100644 vendor/plugins/.gitkeep
+user@rails:~/FakeFacebook$  git push -u origin master
+Password: 
+error: The requested URL returned error: 403 while accessing https://yauci@github.com/yauci/FakeFacebook.git/info/refs
+
+fatal: HTTP request failed
+user@rails:~/FakeFacebook$ tSQY6777
+tSQY6777: orden no encontrada
+user@rails:~/FakeFacebook$  git push -u origin master
+Password: 
+error: The requested URL returned error: 403 while accessing https://yauci@github.com/yauci/FakeFacebook.git/info/refs
+
+fatal: HTTP request failed
+user@rails:~/FakeFacebook$  git push -u origin master
+Password: 
+error: The requested URL returned error: 403 while accessing https://yauci@github.com/yauci/FakeFacebook.git/info/refs
+
+fatal: HTTP request failed
+user@rails:~/FakeFacebook$ clear
+user@rails:~/FakeFacebook$  git push -u origin master
+Password: 
+Counting objects: 62, done.
+Compressing objects: 100% (48/48), done.
+Writing objects: 100% (61/61), 25.83 KiB, done.
+Total 61 (delta 2), reused 0 (delta 0)
+To https://yauci@github.com/yauci/FakeFacebook.git
+   2761380..aeaf38c  master -> master
+Branch master set up to track remote branch master from origin.
+user@rails:~/FakeFacebook$ ^C
+user@rails:~/FakeFacebook$ 
+
+
+
